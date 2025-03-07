@@ -7,7 +7,10 @@ ureg = UnitRegistry()
 # Streamlit App Title
 st.title("Ultimate Unit Converter")
 st.write("Convert between different units of measurement")
-st.write("created by Hassan Ali Junejo")
+st.markdown(
+    "<div style=' color: blue; font-size: 20px;'>created by Hassan Ali Junejo!</div>",
+    unsafe_allow_html=True
+)
 
 # Sidebar Theme Selection
 themes = ["Light", "Dark", "Blue", "Green"]
